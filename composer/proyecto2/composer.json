@@ -1,0 +1,24 @@
+{
+    "name": "diego/proyecto2",
+    "description": "ejemplo de compser en la carpeta proyecto 2",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpunit/php-timer": "6.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Diego\\Proyecto2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Dev"
+        }
+    ],
+    "minimum-stability": "dev"
+}

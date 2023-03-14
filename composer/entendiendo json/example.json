@@ -1,0 +1,10 @@
+
+{
+    "name":"dieog",
+    "description": "aprendiendo composer",
+    "courses":{
+       "advanced": ["php", "vue"],
+        "basic":["json", "html"]
+    },
+    "example":1
+}

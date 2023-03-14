@@ -12,18 +12,19 @@ function sendMail($subject, $body, $email, $name, $html=false)
     $phpmailer = new PHPMailer();
     $phpmailer->isSMTP();
     //$phpmailer->Host = 'sandbox.smtp.mailtrap.io';
-    $phpmailer->Host = 'smtp.gmail.com';
+  //  $phpmailer->Host = 'smtp.gmail.com';
 
     $phpmailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
 
 
     $phpmailer->SMTPAuth = true;
     //$phpmailer->Port = 2525;
-    $phpmailer->Port = 465;
+   // $phpmailer->Port = 465;
 //$phpmailer->Username = '95f8d5dbfad08f';
-    $phpmailer->Username = 'jhonnnyeimiss@gmail.com';
+   // $phpmailer->Username = 'jhonnnyeimiss@gmail.com';
     //$phpmailer->Password = 'itqvrfsuflgtgqrn';
-    $phpmailer->Password = 'zbxjevvbfvjvkdyq';
+
+//    $phpmailer->Password = 'zbxjevvbfvjvkdyq';
 
     // destinatarios
 
