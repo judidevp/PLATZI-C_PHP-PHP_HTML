@@ -1,3 +1,2 @@
-<?php
-$a=(proc_terminate("ingrese a: "));
+("ingrese a: "));
 echo $a;
